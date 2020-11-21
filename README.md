@@ -1,3 +1,2 @@
 # Homework
 Domácí úkoly
-# kus
