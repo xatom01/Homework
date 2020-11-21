@@ -1,2 +1,2 @@
 # Homework
-Domácí úkoly
+- Domácí úkoly z předmětů praxe, webové aplikace a programování.
