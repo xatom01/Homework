@@ -1,3 +1,3 @@
 # Homework
 Domácí úkoly
-# toto je pokus
+# kus
