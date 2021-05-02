@@ -32,12 +32,7 @@
       document.write("<h2>" + den + ". " + mesic + ". " + rok + "</h2>");
     </script>
     <form name="ukaz">
-      <input
-        class="cas"
-        type="text"
-        size="5"
-        name="hodiny"
-      />
+      <input class="cas" type="text" size="5" name="hodiny" />
     </form>
     <script language="javascript" type="text/javascript">
       function tiktak() {
@@ -45,6 +40,8 @@
         var hodina = cas.getHours();
         var minuta = cas.getMinutes();
         var sekunda = cas.getSeconds();
+
+        if (hodina < 10) hodina = "0" + hodina;
 
         if (minuta < 10) minuta = "0" + minuta;
 
