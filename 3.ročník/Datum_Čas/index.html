@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Datum a čas</title>
+  <link rel="stylesheet" href="scss/style.css" />
+</head>
+<body>
+  <div>
+    <h1>Datum a čas<br /></h1>
+    <script>
+      tyden = new Array(
+        "neděle",
+        "pondělí",
+        "úterý",
+        "středa",
+        "čtvrtek",
+        "pátek",
+        "sobota"
+      );
+      datum = new Date();
+      with (datum) {
+        den = getDay();
+      }
+      document.write("<h2>" + "Dnes je" + " " + tyden[den] + "," + "</h2>");
+    </script>
+
+    <script language="javascript" type="text/javascript">
+      var datum = new Date();
+      var den = datum.getDate();
+      var mesic = datum.getMonth() + 1;
+      var rok = datum.getFullYear();
+      document.write("<h2>" + den + ". " + mesic + ". " + rok + "</h2>");
+    </script>
+    <form name="ukaz">
+      <input
+        class="cas"
+        type="text"
+        size="5"
+        name="hodiny"
+      />
+    </form>
+    <script language="javascript" type="text/javascript">
+      function tiktak() {
+        var cas = new Date();
+        var hodina = cas.getHours();
+        var minuta = cas.getMinutes();
+        var sekunda = cas.getSeconds();
+
+        if (minuta < 10) minuta = "0" + minuta;
+
+        if (sekunda < 10) sekunda = "0" + sekunda;
+
+        document.ukaz.hodiny.value = hodina + ":" + minuta + ":" + sekunda;
+        setTimeout("tiktak()", 1000);
+      }
+      tiktak();
+    </script>
+  </div>
+</body>
