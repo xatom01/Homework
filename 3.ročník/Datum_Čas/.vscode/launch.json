@@ -1,7 +1,16 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
-}
+    "liveSassCompile.settings.formats": [
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/css"
+      }
+    ],
+    "liveSassCompile.settings.autoprefix": ["> 5%"],
+    "liveSassCompile.settings.generateMap": true,
+    "liveSassCompile.settings.showOutputWindow": true,
+    "configurations": [
+    
+    ]
+  }
