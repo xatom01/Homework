@@ -16,7 +16,7 @@ Pokud chceme spustit testování postupujeme následujícím způsobem:
    - Namespace BasicPHPUnitTest povede do složky app.
 1. Aktualizujeme si složku vendor příkazem: `composer dump-autoload`.
 1. Vytvoříme si soubor [index.php](index.php) a vložíme do něj autoload: `require "vendor/autoload.php";` případně k němu přidáme další kód našeho programu.
-1. Ve složce app si vytvoříme program, který budeme chtít otestovat.
-1. Ve složce tests si vytvoříme testy pro třídy, které nám ověří funkčnost programu.
+1. Ve složce [app](/app)si vytvoříme program, který budeme chtít otestovat.
+1. Ve složce [tests](/tests) si vytvoříme testy pro třídy, které nám ověří funkčnost programu.
 ## Spuštění testu
 1. Testy spustíme příkazem: `vendor/bin/phpunit --verbose tests`.
