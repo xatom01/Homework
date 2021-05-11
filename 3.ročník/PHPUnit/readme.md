@@ -8,7 +8,7 @@ Pokud chceme spustit testování postupujeme následujícím způsobem:
 
 1. Nejdříve si vytvoříme novou složku, do které budeme vše ukládat a otevřeme ji ve VS studiu.
 1. Nainstalujeme si program [Composer](https://getcomposer.org/). Musíme si ho uložit i jako proměnnou v systémových proměnných "PATH".
-1. Nainstalujeme si PHPUnit jednoduše příkazem v terminálu: `composer require --dev phpunit/phpunit ^9.5`. Po nainstalování se vytvoří složka vendor.
+1. Nainstalujeme si PHPUnit jednoduše příkazem v terminálu: `composer require --dev phpunit/phpunit ^9.5`. Po nainstalování se vytvoří složka [vendor](vendor).
 1. Vstoupíme do souboru composer.json a nastavíme:
    - Název projeku: `"name": "phpunit"`
    - Popis projektu: `"description": "Basic using PHPUnit"`
