@@ -15,7 +15,7 @@ Pokud chceme spustit testování postupujeme následujícím způsobem:
    - Autoload necháme ve standardu PSR-4: `"autoload": { "psr-4": { "BasicPHPUnitTest\\": "app/" } }`
    - Namespace BasicPHPUnitTest povede do složky app.
 1. Aktualizujeme si složku vendor příkazem: `composer dump-autoload`.
-1. Vytvoříme si soubor index.php a vložíme do něj autoload: `require "vendor/autoload.php";` případně k němu přidáme další kód našeho programu.
+1. Vytvoříme si soubor [index.php](index.php) a vložíme do něj autoload: `require "vendor/autoload.php";` případně k němu přidáme další kód našeho programu.
 1. Ve složce app si vytvoříme program, který budeme chtít otestovat.
 1. Ve složce tests si vytvoříme testy pro třídy, které nám ověří funkčnost programu.
 ## Spuštění testu
