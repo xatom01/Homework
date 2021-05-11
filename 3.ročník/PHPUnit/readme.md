@@ -19,4 +19,4 @@ Pokud chceme spustit testování postupujeme následujícím způsobem:
 1. Ve složce [app](app) si vytvoříme program, který budeme chtít otestovat.
 1. Ve složce [tests](tests) si vytvoříme testy pro třídy, které nám ověří funkčnost programu.
 ## Spuštění testu
-1. Testy spustíme příkazem: `vendor/bin/phpunit --verbose tests`.
+- Testy spustíme příkazem: `vendor/bin/phpunit --verbose tests`.
