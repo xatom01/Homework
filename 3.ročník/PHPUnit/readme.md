@@ -20,3 +20,5 @@ Pokud chceme spustit testování postupujeme následujícím způsobem:
 1. Ve složce [tests](tests) si vytvoříme testy pro třídy, které nám ověří funkčnost programu.
 ## Spuštění testu
 - Testy spustíme příkazem: `vendor/bin/phpunit --verbose tests`.
+### Moje práce:
+Rozhodl jsem se vytvořit kalkulačku, která počítá násobení, dělení, zbytek po dělení a sčítání a odečítání.
