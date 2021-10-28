@@ -10,4 +10,4 @@
 
 # Vzhled stránky
 
-<img src = "img/hodiny.png" >
+<img src = "img/vizit.jpg" >
