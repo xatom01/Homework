@@ -2,7 +2,7 @@
 
 - Domácí úkol z předmětu programování. Vytvoření parlaxu.
 - Při "scrolování" se měsíc postupně posouvá.
-- Použito: HTML, css, JavaScript
+- Použito: HTML, CSS, JavaScript
 
 ## Vzhled stránky:
 
