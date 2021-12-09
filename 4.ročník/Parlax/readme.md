@@ -5,7 +5,7 @@
 - Použito: html, css, javascript
 
 ## Vzhled stránky:
-<img src = "\img\web.jpg" >
+<img src = "img/web.jpg" >
 
 ### Použité obrázky
 - Z webu pixabay.
