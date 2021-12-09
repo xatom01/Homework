@@ -6,6 +6,8 @@
 
 ## Vzhled stránky:
 <img src = "img/web.jpg" >
+<img src = "img/web2.jpg" >
+<img src = "img/web3.jpg" >
 
 ### Použité obrázky
 - Z webu pixabay.
