@@ -7,3 +7,5 @@
 - [Sort](Sort) - úkol z předmětu programování. Najít nejvhodnější sort, pochopit jak funguje + kód prozkoumat. Termín odevzdání 03. 10. 2021.
 - [Vyhledávání](Vyhledávání) - úkol z předmětu programování. Algoritmus na vyhledání čísla. Termín odevzdání 20. 10. 2021.
 - [Parlax](Parlax) - úkol z předmětu programování. Vytvoření parlaxu. Termín odevzdání 09. 12. 2021.
+- [Seznam](Seznam) - úkol z předmětu programování. Vytvoření seznamu. Termín odevzdání 11. 01. 2022.
+- [Hra](Hra) - úkol z předmětu programování a webové aplikace. Vytvoření skládačky. Termín odevzdání (neurčeno).
