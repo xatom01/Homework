@@ -10,3 +10,4 @@
 - [Seznam](Seznam) - úkol z předmětu programování. Vytvoření seznamu. Termín odevzdání 11. 01. 2022.
 - [Hra](Hra) - úkol z předmětu programování a webové aplikace. Vytvoření skládačky. Termín odevzdání (neurčeno).
 - [Návrhové_vzory](Návrhové_vzory) - úkol z předmětu programování a webové aplikace. Pochopení a vytvoření návrhových vzorů. Termín odevzdání 21. 02. 2022.
+- [Fraktál](Fraktál) - úkol z předmětu programování a webové aplikace. Vytvoření fraktálu. Práce při hodině PRG. Termín odevzdání 22. 03. 2022.
