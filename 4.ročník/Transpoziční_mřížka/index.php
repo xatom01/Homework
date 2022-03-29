@@ -15,20 +15,34 @@
         <input type="submit" value="Odeslat" />
     </form>
     <?php
-    $text = $_POST["veta"]; //Načtení řetězce z html.
-    $text = iconv('UTF-8', 'ASCII//TRANSLIT', $text); //Konverze řetězce do podoby bez háčků a čárek. Některá se nahradí znakem ", ', ^.
+    $text = $_POST["veta"]; // Načtení řetězce z html.
+    $text = iconv('UTF-8', 'ASCII//TRANSLIT', $text); // Konverze řetězce do podoby bez háčků a čárek. Některé znaky se nahradí znakem ", ', ^.
     $text = str_replace('"', " ",  $text); // Znak " nahradíme mezerou.
     $text = str_replace("'", " ",  $text); // Znak ' nahradíme mezerou.
     $text = str_replace("^", " ",  $text); // Znak ^ nahradíme mezerou.
-    $text = str_replace(" ", "",  $text); // Mezery v řetězci odstraníme.
+    $text = str_replace(" ", "",  $text); // Mezery v celém řetězci odstraníme.
     $text = strtoupper(trim($text)); // Všechna písmena v řetězci změníme na velká.
-    $pocet_pismen = strlen($text); // Vypočítáme počet písmen
-    $vypocet = 36 - $pocet_pismen; // V jedné tabulce můžeme mít 20 písmen. Vypočítáme, kolik písmen nám chybí a kolik jich potřebujeme doplnit.
-    echo ($text); // Vypíšeme celý upravený text
-    $pole = array(); // Vytvoříme si pole.
-    for ($a = 0; $a < $vypocet; $a++) { // Do pole vložíme jednotlivá písmena celého řetězce.
-        $pole[$a] = substr($text, $a, 1);
+    $pocet_pismen = strlen($text); // Vypočítáme počet písmen, které se nám nachází v řetězci.
+    $vypocet = 36 - $pocet_pismen; // V jedné tabulce můžeme mít maximálně 20 písmen. Vypočítáme, kolik písmen nám chybí a kolik jich potřebujeme doplnit.
+    echo ($text); // Vypíšeme celý upravený text.
+    $pole = array(); //Vytvoříme si pole číslo 1.
+    $pole2 = array(); // Vytvoříme si pole číslo 2.
+    //Pole naplníme náhodnými znaky.
+
+    for ($x = 0; $x < 36; $x++) {
+        $cislo = rand(65, 90); //Vybereme náhodné číslo v ASCII kódu.
+        $pismeno = chr($cislo); //ASCII kód převedeme na písmeno.
+        $pole[$x] = $pismeno; // Písmena uložíme do pole.
+    } 
+    //Do pole uložíme písmena z hesla, které chceme zašifrovat.
+
+    for ($y = 0; $y < $pocet_pismen; $y++) {
+        $nahodne_cislo = rand(0, 36); // Vygenerujeme náhodné číslo od 0 do 36.
+        $pole[$nahodne_cislo] = substr($text, $y, 1); // Do pole vložíme na náhodně vygenerovanou pozici písmeno, které jsme zadali na vstupu.
+        $pole2[$y] = $nahodne_cislo; // Do pole číslo 2 si vložíme náhodné číslo, které se pomocí funkce random vygenerovalo.
+        var_dump($nahodne_cislo); // Náhodná čísla si zobrazíme. Podle nich nalezeneme písmenka v mřížce.
     }
+    //Vypíšeme si tabulku se znaky.
     echo ('<table border="1">');
     echo ('<tr>');
     echo ('<td>' . htmlspecialchars($pole[0]) . '</td>');
