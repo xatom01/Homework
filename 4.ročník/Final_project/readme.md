@@ -32,4 +32,4 @@
 ## Hosting - stránka online
 
 - Web nahrán na hostingu webzdarma.cz
-- Odkaz na web [Final_project](Final_project)
+- Odkaz na web [Final_project](http://autory-knihy.euweb.cz/)
