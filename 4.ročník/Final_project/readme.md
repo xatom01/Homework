@@ -1,7 +1,6 @@
 # Final project
 
-- Závěrečný projekt z programování a webových aplikací.
-- Knihovna, která vypisuje autory a jejich díla.
+Závěrečný projekt z programování a webových aplikací.
 
 ## Práce:
 
@@ -20,16 +19,7 @@
 
 ## Vzhled stránky:
 
-- Úvodní stránka knihovny.
-  <img src = "IMG/obr1.jpg" >
-- Stránka s výpisem autorů a jejich děl.
-  <img src = "IMG/obr2.jpg" >
-- Stránka s výpisem knih.
-  <img src = "IMG/obr3.jpg" >
-- Stránka s výpisem autorů.
-  <img src = "IMG/obr4.jpg" >
-
 ## Hosting - stránka online
 
 - Web nahrán na hostingu webzdarma.cz
-- Odkaz na web [Final_project](http://autory-knihy.euweb.cz/)
+- Odkaz na web:
