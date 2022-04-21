@@ -26,4 +26,4 @@ Závěrečný projekt z programování a webových aplikací.
 ## Hosting - stránka online
 
 - Web nahrán na hostingu webzdarma.cz
-- Odkaz na web:
+- Odkaz na web: ZDE [ZDE](http://autory-knihy.euweb.cz )
