@@ -22,6 +22,7 @@ Závěrečný projekt z programování a webových aplikací.
 <img src = "IMG/obr2.jpg" >
 <img src = "IMG/obr3.jpg" >
 <img src = "IMG/obr4.jpg" >
+
 ## Hosting - stránka online
 
 - Web nahrán na hostingu webzdarma.cz
