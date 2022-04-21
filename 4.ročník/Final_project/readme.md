@@ -17,7 +17,7 @@ Závěrečný projekt z programování a webových aplikací.
 - Složka IMG obsahuje obrázky.
 - Složka PHP obsahuje všhechny PHP soubory.
 
-## E-R model
+## E-R diagram
 <img src = "Database/e-r_diagram.jpg" >
 
 ## Vzhled stránky:
