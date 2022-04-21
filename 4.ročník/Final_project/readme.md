@@ -18,7 +18,7 @@ Závěrečný projekt z programování a webových aplikací.
 - Složka PHP obsahuje všhechny PHP soubory.
 
 ## E-R diagram
-<img src = "Database/e-r_diagram.jpg" >
+<img src = "Database/e-r_diagram.png" >
 
 ## Vzhled stránky:
 <img src = "IMG/obr1.jpg" >
