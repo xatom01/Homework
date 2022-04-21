@@ -18,10 +18,10 @@ Závěrečný projekt z programování a webových aplikací.
 - Složka PHP obsahuje všhechny PHP soubory.
 
 ## Vzhled stránky:
-<img src = "img/obr1.jpg" >
-<img src = "img/obr2.jpg" >
-<img src = "img/obr3.jpg" >
-<img src = "img/obr4.jpg" >
+<img src = "IMG/obr1.jpg" >
+<img src = "IMG/obr2.jpg" >
+<img src = "IMG/obr3.jpg" >
+<img src = "IMG/obr4.jpg" >
 ## Hosting - stránka online
 
 - Web nahrán na hostingu webzdarma.cz
